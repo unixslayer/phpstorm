@@ -4,6 +4,7 @@
   </MarkdownNavigatorCodeStyleSettings>
   <PHPCodeStyleSettings>
     <option name="KEEP_RPAREN_AND_LBRACE_ON_ONE_LINE" value="true" />
+    <option name="SPACE_AROUND_ASSIGNMENT_IN_DECLARE" value="true" />
     <option name="NAMESPACE_BRACE_STYLE" value="2" />
   </PHPCodeStyleSettings>
   <codeStyleSettings language="PHP">
