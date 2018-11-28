@@ -1,0 +1,20 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="composer" type="PLAIN_TEXT" />
+      <mapping pattern="cli" type="PLAIN_TEXT" />
+      <mapping pattern="console" type="PLAIN_TEXT" />
+      <mapping pattern="hosts" type="PLAIN_TEXT" />
+      <mapping pattern="bash" type="PLAIN_TEXT" />
+      <mapping pattern="setup" type="PLAIN_TEXT" />
+      <mapping pattern="down" type="PLAIN_TEXT" />
+      <mapping pattern="fixperms" type="PLAIN_TEXT" />
+      <mapping ext="j2" type="PLAIN_TEXT" />
+      <mapping ext="magento" type="PLAIN_TEXT" />
+      <mapping ext="test" type="PLAIN_TEXT" />
+      <mapping ext="devel" type="PLAIN_TEXT" />
+      <mapping ext="dist" type="PLAIN_TEXT" />
+      <mapping ext="db" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
