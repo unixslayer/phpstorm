@@ -14,6 +14,7 @@
       <mapping pattern=".regenerate" type="PLAIN_TEXT" />
       <mapping pattern="down" type="PLAIN_TEXT" />
       <mapping pattern="fixperms" type="PLAIN_TEXT" />
+      <mapping ext="crontab" type="PLAIN_TEXT" />
       <mapping ext="j2" type="PLAIN_TEXT" />
       <mapping ext="magento" type="PLAIN_TEXT" />
       <mapping ext="test" type="PLAIN_TEXT" />
