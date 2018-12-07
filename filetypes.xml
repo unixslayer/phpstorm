@@ -7,6 +7,7 @@
       <mapping pattern="hosts" type="PLAIN_TEXT" />
       <mapping pattern="bash" type="PLAIN_TEXT" />
       <mapping pattern="start" type="PLAIN_TEXT" />
+      <mapping pattern="dump-db" type="PLAIN_TEXT" />
       <mapping pattern="stop" type="PLAIN_TEXT" />
       <mapping pattern=".maintenance.flag" type="PLAIN_TEXT" />
       <mapping pattern="setup" type="PLAIN_TEXT" />
@@ -14,6 +15,7 @@
       <mapping pattern=".regenerate" type="PLAIN_TEXT" />
       <mapping pattern="down" type="PLAIN_TEXT" />
       <mapping pattern="fixperms" type="PLAIN_TEXT" />
+      <mapping pattern="clear-cache" type="PLAIN_TEXT" />
       <mapping ext="crontab" type="PLAIN_TEXT" />
       <mapping ext="j2" type="PLAIN_TEXT" />
       <mapping ext="magento" type="PLAIN_TEXT" />
