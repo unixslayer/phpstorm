@@ -10,6 +10,7 @@
       <mapping pattern="dump-db" type="PLAIN_TEXT" />
       <mapping pattern="stop" type="PLAIN_TEXT" />
       <mapping pattern=".maintenance.flag" type="PLAIN_TEXT" />
+      <mapping pattern="db-dump" type="PLAIN_TEXT" />
       <mapping pattern="setup" type="PLAIN_TEXT" />
       <mapping pattern="reset" type="PLAIN_TEXT" />
       <mapping pattern=".regenerate" type="PLAIN_TEXT" />
