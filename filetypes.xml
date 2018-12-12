@@ -22,6 +22,7 @@
       <mapping ext="magento" type="PLAIN_TEXT" />
       <mapping ext="test" type="PLAIN_TEXT" />
       <mapping ext="devel" type="PLAIN_TEXT" />
+      <mapping ext="options" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping ext="db" type="PLAIN_TEXT" />
     </extensionMap>
