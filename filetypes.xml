@@ -15,6 +15,7 @@
       <mapping pattern="reset" type="PLAIN_TEXT" />
       <mapping pattern=".regenerate" type="PLAIN_TEXT" />
       <mapping pattern="down" type="PLAIN_TEXT" />
+      <mapping pattern="etc/hosts" type="PLAIN_TEXT" />
       <mapping pattern="fixperms" type="PLAIN_TEXT" />
       <mapping pattern="clear-cache" type="PLAIN_TEXT" />
       <mapping ext="crontab" type="PLAIN_TEXT" />
