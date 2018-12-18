@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="composer" type="PLAIN_TEXT" />
+      <mapping pattern="healthcheck" type="PLAIN_TEXT" />
       <mapping pattern="cli" type="PLAIN_TEXT" />
       <mapping pattern="console" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
@@ -15,9 +16,11 @@
       <mapping pattern="setup" type="PLAIN_TEXT" />
       <mapping pattern="reset" type="PLAIN_TEXT" />
       <mapping pattern=".regenerate" type="PLAIN_TEXT" />
+      <mapping pattern="bin/healthcheck" type="PLAIN_TEXT" />
       <mapping pattern="down" type="PLAIN_TEXT" />
       <mapping pattern="etc/hosts" type="PLAIN_TEXT" />
       <mapping pattern="fixperms" type="PLAIN_TEXT" />
+      <mapping pattern="redis/Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="clear-cache" type="PLAIN_TEXT" />
       <mapping ext="crontab" type="PLAIN_TEXT" />
       <mapping ext="j2" type="PLAIN_TEXT" />
