@@ -4,6 +4,7 @@
       <mapping pattern="composer" type="PLAIN_TEXT" />
       <mapping pattern="healthcheck" type="PLAIN_TEXT" />
       <mapping pattern="cli" type="PLAIN_TEXT" />
+      <mapping pattern="depoly" type="PLAIN_TEXT" />
       <mapping pattern="console" type="PLAIN_TEXT" />
       <mapping pattern="hosts" type="PLAIN_TEXT" />
       <mapping pattern="bash" type="PLAIN_TEXT" />
