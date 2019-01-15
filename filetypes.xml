@@ -27,6 +27,7 @@
       <mapping ext="crontab" type="PLAIN_TEXT" />
       <mapping ext="j2" type="PLAIN_TEXT" />
       <mapping ext="magento" type="PLAIN_TEXT" />
+      <mapping ext="gitkeep" type="PLAIN_TEXT" />
       <mapping ext="test" type="PLAIN_TEXT" />
       <mapping ext="devel" type="PLAIN_TEXT" />
       <mapping ext="options" type="PLAIN_TEXT" />
