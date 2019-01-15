@@ -17,6 +17,7 @@
       <mapping pattern="db-dump" type="PLAIN_TEXT" />
       <mapping pattern="setup" type="PLAIN_TEXT" />
       <mapping pattern="reset" type="PLAIN_TEXT" />
+      <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
       <mapping pattern=".regenerate" type="PLAIN_TEXT" />
       <mapping pattern="bin/healthcheck" type="PLAIN_TEXT" />
       <mapping pattern="down" type="PLAIN_TEXT" />
