@@ -11,6 +11,7 @@
       <mapping pattern="bash" type="PLAIN_TEXT" />
       <mapping pattern="start" type="PLAIN_TEXT" />
       <mapping pattern="dump-db" type="PLAIN_TEXT" />
+      <mapping pattern="jwt" type="PLAIN_TEXT" />
       <mapping pattern="stop" type="PLAIN_TEXT" />
       <mapping pattern=".maintenance.flag" type="PLAIN_TEXT" />
       <mapping pattern="setup-elk" type="PLAIN_TEXT" />
