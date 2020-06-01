@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern="*neon.dist" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping ext="fpp" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
