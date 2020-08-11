@@ -1,5 +1,10 @@
 <application>
   <component name="GraziConfig">
+    <option name="userEnabledRules">
+      <set>
+        <option value="PASSIVE_VOICE" />
+      </set>
+    </option>
     <option name="suppressingContext">
       <SuppressingContext>
         <option name="suppressed">
