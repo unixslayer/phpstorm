@@ -4,6 +4,7 @@
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
       <mapping pattern="*neon.dist" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern=".docheader" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping ext="fpp" type="PLAIN_TEXT" />
     </extensionMap>
