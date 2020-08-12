@@ -2,11 +2,16 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
+      <mapping pattern=".php_cs.dist" type="PHP" />
+      <mapping pattern=".php_cs" type="PHP" />
       <mapping pattern="*neon.dist" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern=".docheader" type="PLAIN_TEXT" />
       <mapping pattern="LICENSE" type="PLAIN_TEXT" />
       <mapping ext="fpp" type="PLAIN_TEXT" />
+      <mapping pattern="*.xml.dist" type="XML" />
+      <removed_mapping pattern="phpunit.xml.dist" approved="true" type="XML" />
+      <removed_mapping pattern="phpunit.xml.dist" approved="true" type="XML" />
     </extensionMap>
   </component>
 </application>
