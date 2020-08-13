@@ -11,6 +11,7 @@
       <mapping ext="fpp" type="PLAIN_TEXT" />
       <mapping pattern="*.xml.dist" type="XML" />
       <removed_mapping pattern="phpunit.xml.dist" approved="true" type="XML" />
+      <mapping pattern="*.yml.dist" type="YAML" />
       <removed_mapping pattern="phpunit.xml.dist" approved="true" type="XML" />
     </extensionMap>
   </component>
