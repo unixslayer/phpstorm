@@ -1,0 +1,13 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="*.json.dist" type="JSON" />
+      <mapping pattern=".php_cs.dist" type="PHP" />
+      <mapping pattern="*.xml.dist" type="XML" />
+      <removed_mapping pattern="phpunit.xml.dist" approved="true" type="XML" />
+      <mapping pattern="*.yaml.dist" type="YAML" />
+      <mapping pattern="*.yml.dist" type="YAML" />
+      <removed_mapping pattern="phpunit.xml.dist" approved="true" type="XML" />
+    </extensionMap>
+  </component>
+</application>
