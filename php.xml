@@ -1,19 +1,24 @@
 <application>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter id="a863e26b-ad32-457f-9a55-9a1feea414b8" name="PHP 7.4 local" home="/usr/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="a863e26b-ad32-457f-9a55-9a1feea414b8" name="PHP 8.0" home="/usr/bin/php8.0" debugger_id="php.debugger.XDebug" />
+      <interpreter id="e9675f95-c9b4-4b37-b0af-60f1c837dca9" name="PHP 7.4" home="/usr/bin/php7.4" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
-      <interpreter name="PHP 7.4 local">
-        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.4" path_separator=":" version="7.4.3">
-          <additional_php_ini>/etc/php/7.4/cli/conf.d/10-opcache.ini, /etc/php/7.4/cli/conf.d/10-pdo.ini, /etc/php/7.4/cli/conf.d/15-xml.ini, /etc/php/7.4/cli/conf.d/20-amqp.ini, /etc/php/7.4/cli/conf.d/20-calendar.ini, /etc/php/7.4/cli/conf.d/20-ctype.ini, /etc/php/7.4/cli/conf.d/20-curl.ini, /etc/php/7.4/cli/conf.d/20-dom.ini, /etc/php/7.4/cli/conf.d/20-exif.ini, /etc/php/7.4/cli/conf.d/20-ffi.ini, /etc/php/7.4/cli/conf.d/20-fileinfo.ini, /etc/php/7.4/cli/conf.d/20-ftp.ini, /etc/php/7.4/cli/conf.d/20-gettext.ini, /etc/php/7.4/cli/conf.d/20-gmp.ini, /etc/php/7.4/cli/conf.d/20-iconv.ini, /etc/php/7.4/cli/conf.d/20-json.ini, /etc/php/7.4/cli/conf.d/20-mbstring.ini, /etc/php/7.4/cli/conf.d/20-pdo_pgsql.ini, /etc/php/7.4/cli/conf.d/20-pgsql.ini, /etc/php/7.4/cli/conf.d/20-phar.ini, /etc/php/7.4/cli/conf.d/20-posix.ini, /etc/php/7.4/cli/conf.d/20-readline.ini, /etc/php/7.4/cli/conf.d/20-shmop.ini, /etc/php/7.4/cli/conf.d/20-simplexml.ini, /etc/php/7.4/cli/conf.d/20-sockets.ini, /etc/php/7.4/cli/conf.d/20-sysvmsg.ini, /etc/php/7.4/cli/conf.d/20-sysvsem.ini, /etc/php/7.4/cli/conf.d/20-sysvshm.ini, /etc/php/7.4/cli/conf.d/20-tokenizer.ini, /etc/php/7.4/cli/conf.d/20-xmlreader.ini, /etc/php/7.4/cli/conf.d/20-xmlwriter.ini, /etc/php/7.4/cli/conf.d/20-xsl.ini</additional_php_ini>
+      <interpreter name="PHP 7.4">
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.4" path_separator=":" version="7.4.14">
+          <additional_php_ini>/etc/php/7.4/cli/conf.d/10-mysqlnd.ini, /etc/php/7.4/cli/conf.d/10-opcache.ini, /etc/php/7.4/cli/conf.d/10-pdo.ini, /etc/php/7.4/cli/conf.d/15-xml.ini, /etc/php/7.4/cli/conf.d/20-calendar.ini, /etc/php/7.4/cli/conf.d/20-ctype.ini, /etc/php/7.4/cli/conf.d/20-dom.ini, /etc/php/7.4/cli/conf.d/20-exif.ini, /etc/php/7.4/cli/conf.d/20-ffi.ini, /etc/php/7.4/cli/conf.d/20-fileinfo.ini, /etc/php/7.4/cli/conf.d/20-ftp.ini, /etc/php/7.4/cli/conf.d/20-gettext.ini, /etc/php/7.4/cli/conf.d/20-iconv.ini, /etc/php/7.4/cli/conf.d/20-intl.ini, /etc/php/7.4/cli/conf.d/20-json.ini, /etc/php/7.4/cli/conf.d/20-mbstring.ini, /etc/php/7.4/cli/conf.d/20-mysqli.ini, /etc/php/7.4/cli/conf.d/20-pdo_mysql.ini, /etc/php/7.4/cli/conf.d/20-pdo_pgsql.ini, /etc/php/7.4/cli/conf.d/20-pgsql.ini, /etc/php/7.4/cli/conf.d/20-phar.ini, /etc/php/7.4/cli/conf.d/20-posix.ini, /etc/php/7.4/cli/conf.d/20-readline.ini, /etc/php/7.4/cli/conf.d/20-shmop.ini, /etc/php/7.4/cli/conf.d/20-simplexml.ini, /etc/php/7.4/cli/conf.d/20-sockets.ini, /etc/php/7.4/cli/conf.d/20-sysvmsg.ini, /etc/php/7.4/cli/conf.d/20-sysvsem.ini, /etc/php/7.4/cli/conf.d/20-sysvshm.ini, /etc/php/7.4/cli/conf.d/20-tokenizer.ini, /etc/php/7.4/cli/conf.d/20-xdebug.ini, /etc/php/7.4/cli/conf.d/20-xmlreader.ini, /etc/php/7.4/cli/conf.d/20-xmlwriter.ini, /etc/php/7.4/cli/conf.d/20-xsl.ini</additional_php_ini>
           <configuration_file>/etc/php/7.4/cli/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="include_path" value=".:/usr/share/php" />
           </configuration_options>
-          <debuggers />
+          <debuggers>
+            <debugger_info debugger="xdebug" debugger_version="3.0.2">
+              <debug_extensions />
+            </debugger_info>
+          </debuggers>
           <loaded_extensions>
             <extension name="Core" />
             <extension name="FFI" />
@@ -23,10 +28,8 @@
             <extension name="SPL" />
             <extension name="SimpleXML" />
             <extension name="Zend OPcache" />
-            <extension name="amqp" />
             <extension name="calendar" />
             <extension name="ctype" />
-            <extension name="curl" />
             <extension name="date" />
             <extension name="dom" />
             <extension name="exif" />
@@ -34,15 +37,18 @@
             <extension name="filter" />
             <extension name="ftp" />
             <extension name="gettext" />
-            <extension name="gmp" />
             <extension name="hash" />
             <extension name="iconv" />
+            <extension name="intl" />
             <extension name="json" />
             <extension name="libxml" />
             <extension name="mbstring" />
+            <extension name="mysqli" />
+            <extension name="mysqlnd" />
             <extension name="openssl" />
             <extension name="pcntl" />
             <extension name="pcre" />
+            <extension name="pdo_mysql" />
             <extension name="pdo_pgsql" />
             <extension name="pgsql" />
             <extension name="posix" />
@@ -56,6 +62,65 @@
             <extension name="sysvsem" />
             <extension name="sysvshm" />
             <extension name="tokenizer" />
+            <extension name="xdebug" />
+            <extension name="xml" />
+            <extension name="xmlreader" />
+            <extension name="xmlwriter" />
+            <extension name="xsl" />
+            <extension name="zlib" />
+          </loaded_extensions>
+        </phpinfo>
+      </interpreter>
+      <interpreter name="PHP 8.0">
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php8.0" path_separator=":" version="8.0.1">
+          <additional_php_ini>/etc/php/8.0/cli/conf.d/10-opcache.ini, /etc/php/8.0/cli/conf.d/10-pdo.ini, /etc/php/8.0/cli/conf.d/15-xml.ini, /etc/php/8.0/cli/conf.d/20-calendar.ini, /etc/php/8.0/cli/conf.d/20-ctype.ini, /etc/php/8.0/cli/conf.d/20-dom.ini, /etc/php/8.0/cli/conf.d/20-exif.ini, /etc/php/8.0/cli/conf.d/20-ffi.ini, /etc/php/8.0/cli/conf.d/20-fileinfo.ini, /etc/php/8.0/cli/conf.d/20-ftp.ini, /etc/php/8.0/cli/conf.d/20-gettext.ini, /etc/php/8.0/cli/conf.d/20-iconv.ini, /etc/php/8.0/cli/conf.d/20-mbstring.ini, /etc/php/8.0/cli/conf.d/20-phar.ini, /etc/php/8.0/cli/conf.d/20-posix.ini, /etc/php/8.0/cli/conf.d/20-readline.ini, /etc/php/8.0/cli/conf.d/20-shmop.ini, /etc/php/8.0/cli/conf.d/20-simplexml.ini, /etc/php/8.0/cli/conf.d/20-sockets.ini, /etc/php/8.0/cli/conf.d/20-sysvmsg.ini, /etc/php/8.0/cli/conf.d/20-sysvsem.ini, /etc/php/8.0/cli/conf.d/20-sysvshm.ini, /etc/php/8.0/cli/conf.d/20-tokenizer.ini, /etc/php/8.0/cli/conf.d/20-xdebug.ini, /etc/php/8.0/cli/conf.d/20-xmlreader.ini, /etc/php/8.0/cli/conf.d/20-xmlwriter.ini, /etc/php/8.0/cli/conf.d/20-xsl.ini</additional_php_ini>
+          <configuration_file>/etc/php/8.0/cli/php.ini</configuration_file>
+          <configuration_options>
+            <configuration_option name="include_path" value=".:/usr/share/php" />
+          </configuration_options>
+          <debuggers>
+            <debugger_info debugger="xdebug" debugger_version="3.0.2">
+              <debug_extensions />
+            </debugger_info>
+          </debuggers>
+          <loaded_extensions>
+            <extension name="Core" />
+            <extension name="FFI" />
+            <extension name="PDO" />
+            <extension name="Phar" />
+            <extension name="Reflection" />
+            <extension name="SPL" />
+            <extension name="SimpleXML" />
+            <extension name="Zend OPcache" />
+            <extension name="calendar" />
+            <extension name="ctype" />
+            <extension name="date" />
+            <extension name="dom" />
+            <extension name="exif" />
+            <extension name="fileinfo" />
+            <extension name="filter" />
+            <extension name="ftp" />
+            <extension name="gettext" />
+            <extension name="hash" />
+            <extension name="iconv" />
+            <extension name="json" />
+            <extension name="libxml" />
+            <extension name="mbstring" />
+            <extension name="openssl" />
+            <extension name="pcntl" />
+            <extension name="pcre" />
+            <extension name="posix" />
+            <extension name="readline" />
+            <extension name="session" />
+            <extension name="shmop" />
+            <extension name="sockets" />
+            <extension name="sodium" />
+            <extension name="standard" />
+            <extension name="sysvmsg" />
+            <extension name="sysvsem" />
+            <extension name="sysvshm" />
+            <extension name="tokenizer" />
+            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlwriter" />
