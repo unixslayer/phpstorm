@@ -963,6 +963,14 @@
             </plugin>
           </value>
         </entry>
+        <entry key="*.postfixtemplates">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="de.endrullis.idea.postfixtemplates" />
+              <option name="myPluginName" value="Custom Postfix Templates" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="*.pot">
           <value>
             <plugin>
