@@ -1635,6 +1635,22 @@
             </plugin>
           </value>
         </entry>
+        <entry key="bitbucket-pipelines.yaml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.atlassian.bitbucket.references" />
+              <option name="myPluginName" value="Bitbucket Linky" />
+            </plugin>
+          </value>
+        </entry>
+        <entry key="bitbucket-pipelines.yml">
+          <value>
+            <plugin>
+              <option name="myPluginId" value="com.atlassian.bitbucket.references" />
+              <option name="myPluginName" value="Bitbucket Linky" />
+            </plugin>
+          </value>
+        </entry>
         <entry key="bowerrc">
           <value>
             <plugin>
