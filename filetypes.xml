@@ -13,8 +13,8 @@
       <mapping pattern="phpunit" type="PHP" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping pattern="*.xml.dist" type="XML" />
-      <mapping pattern="*.yml.dist" type="YAML" />
       <mapping pattern="*.yaml.dist" type="YAML" />
+      <mapping pattern="*.yml.dist" type="YAML" />
       <removed_mapping ext="yaml" approved="true" type="YAML_EX" />
       <removed_mapping ext="yml" approved="true" type="YAML_EX" />
       <removed_mapping pattern="phpunit.xml.dist" approved="true" type="XML" />
