@@ -11,6 +11,7 @@
       <mapping pattern="*.json.dist" type="JSON" />
       <mapping pattern=".php_cs.dist" type="PHP" />
       <mapping pattern="phpunit" type="PHP" />
+      <mapping ext="plantuml" type="PlantUML file" />
       <mapping pattern="*.xml.dist" type="XML" />
       <mapping pattern="*.yml.dist" type="YAML" />
       <mapping pattern="*.yaml.dist" type="YAML" />
