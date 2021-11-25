@@ -62,9 +62,9 @@
                 </VFile>
                 <VFile>
                   <option name="enabled" value="true" />
-                  <option name="id" value="cassiuscai.commons-lang.date" />
-                  <option name="url" value="https://raw.githubusercontent.com/cassiuscai/postfix-templates/master/templates/commons-lang.date.postfixTemplates" />
-                  <option name="file" value="${PLUGIN}/java/cassiuscai.commons-lang.date.postfixTemplates" />
+                  <option name="id" value="cassiuscai.commons-lang3" />
+                  <option name="url" value="https://raw.githubusercontent.com/cassiuscai/postfix-templates/master/templates/commons-lang3.postfixTemplates" />
+                  <option name="file" value="${PLUGIN}/java/cassiuscai.commons-lang3.postfixTemplates" />
                 </VFile>
                 <VFile>
                   <option name="enabled" value="true" />
@@ -77,6 +77,12 @@
                   <option name="id" value="xylo.junit4" />
                   <option name="url" value="https://raw.githubusercontent.com/xylo/intellij-postfix-templates/master/templates/java/junit4.postfixTemplates" />
                   <option name="file" value="${PLUGIN}/java/xylo.junit4.postfixTemplates" />
+                </VFile>
+                <VFile>
+                  <option name="enabled" value="true" />
+                  <option name="id" value="yfr.junit5" />
+                  <option name="url" value="https://raw.githubusercontent.com/xylo/intellij-postfix-templates/master/templates/java/yfr.junit5.postfixTemplates" />
+                  <option name="file" value="${PLUGIN}/java/yfr.junit5.postfixTemplates" />
                 </VFile>
                 <VFile>
                   <option name="enabled" value="true" />
