@@ -12,7 +12,6 @@
       <mapping pattern="*.json.dist" type="JSON" />
       <mapping pattern=".php_cs.dist" type="PHP" />
       <mapping pattern="phpunit" type="PHP" />
-      <mapping ext="plantuml" type="PlantUML file" />
       <mapping pattern="*.xml.dist" type="XML" />
       <mapping pattern="*.yaml.dist" type="YAML" />
       <mapping pattern="*.yml.dist" type="YAML" />
@@ -20,6 +19,7 @@
       <removed_mapping ext="yml" approved="true" type="YAML_EX" />
       <removed_mapping pattern=".env" approved="true" type=".env file" />
       <removed_mapping pattern="phpunit.xml.dist" approved="true" type="XML" />
+      <mapping ext="plantuml" type="PlantUML file" />
     </extensionMap>
   </component>
 </application>
