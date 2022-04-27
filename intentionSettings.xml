@@ -1,0 +1,5 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="PHP/Add PHPDoc comment" />
+  </component>
+</application>
