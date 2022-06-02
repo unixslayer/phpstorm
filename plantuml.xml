@@ -5,7 +5,7 @@
     <option name="lastBundledVersion" value="1.2022.5" />
     <option name="previewSettings">
       <PreviewSettings>
-        <option name="splitEditorLayout" value="Show editor only" />
+        <option name="splitEditorLayout" value="Show editor and preview - horizontal split" />
       </PreviewSettings>
     </option>
     <option name="renderDelay" value="1000" />
