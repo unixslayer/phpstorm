@@ -5,6 +5,7 @@
       <mapping pattern="Caddyfile" type="AUTO_DETECTED" />
       <mapping pattern="typescript" type="AUTO_DETECTED" />
       <mapping pattern="key" type="AUTO_DETECTED" />
+      <mapping pattern="messaging_system" type="AUTO_DETECTED" />
       <mapping pattern="start" type="AUTO_DETECTED" />
       <mapping pattern="php/Dockerfile" type="AUTO_DETECTED" />
       <mapping pattern="8e91d5412e65b99bd9c47112681d296b39297621ec936b1a21785ebb8bc24a15" type="AUTO_DETECTED" />
