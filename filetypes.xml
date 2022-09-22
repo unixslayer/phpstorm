@@ -14,6 +14,7 @@
       <mapping pattern=".php_cs.dist" type="PHP" />
       <mapping pattern="phpunit" type="PHP" />
       <mapping ext="neon" type="PLAIN_TEXT" />
+      <mapping ext="enc" type="PLAIN_TEXT" />
       <mapping ext="plantuml" type="PlantUML file" />
       <mapping pattern="*.xml.dist" type="XML" />
       <mapping pattern="*.yaml.dist" type="YAML" />
